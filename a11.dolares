@@ -1,0 +1,14 @@
+// Conversion a dolares
+Algoritmo Convertir
+	Definir pesos, TC, dolares Como Real
+	TC = 20.21
+	
+	Escribir "Convirtiendo pesos a dolares"
+	Escribir "Dame la cantidad en pesos "
+	Leer pesos
+	
+	dolares = pesos / TC
+	
+	Escribir "Tus " pesos " equivalen a " dolares " dolares. "
+	
+FinAlgoritmo

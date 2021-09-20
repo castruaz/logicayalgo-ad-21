@@ -1,0 +1,15 @@
+// Dadas las horas, calcular dias, minutos y segundos
+Algoritmo Tiempo
+	Definir horas, dias, minutos, segundos Como Real
+	
+	Escribir "Calculando dias, minutos y segundos "
+	Escribir "Dame las horas " ; Leer horas
+	
+	dias = horas / 24
+	minutos = horas * 60
+	segundos = minutos * 60
+	
+	Escribir "Los dias     :" dias
+	Escribir "Los minutos  :" minutos
+	Escribir "Los segundos :" segundos	
+FinAlgoritmo
